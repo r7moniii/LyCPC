@@ -44,7 +44,6 @@ void solve() {
     cout<<res;
 }
 
-
 int main() {
     IOS
 
