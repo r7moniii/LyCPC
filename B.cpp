@@ -26,7 +26,6 @@ void solve() {
     cout<<cnt;
 }
 
-
 int main() {
     IOS
 

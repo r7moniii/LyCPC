@@ -13,7 +13,6 @@ using vvi = vector<vector<int>>;
 using vll = vector<ll>;
 using vvll = vector<vll>;
 using pi = pair<int, int>;
-
 template <typename T>
 using pqpair = priority_queue<T, vector<T>, greater<T>>;
 
@@ -29,7 +28,6 @@ void solve() {
     }
     cout<<idx;
 }
-
 
 int main() {
     IOS

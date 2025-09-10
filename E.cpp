@@ -28,7 +28,6 @@ void solve() {
     }
 }
 
-
 int main() {
     IOS
 

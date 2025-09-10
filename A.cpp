@@ -20,7 +20,6 @@ void solve() {
     cout<<x-1;
 }
 
-
 int main() {
     IOS
 

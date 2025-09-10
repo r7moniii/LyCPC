@@ -13,7 +13,6 @@ using vvi = vector<vector<int>>;
 using vll = vector<ll>;
 using vvll = vector<vll>;
 using pi = pair<int, int>;
-
 template <typename T>
 using pqpair = priority_queue<T, vector<T>, greater<T>>;
 
@@ -22,7 +21,6 @@ void solve(vll& values) {
     cin>>p;
     cout<<values[upper_bound(values.begin(), values.end(), p)-values.begin()]-p;
 }
-
 
 int main() {
     IOS
