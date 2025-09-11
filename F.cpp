@@ -17,16 +17,19 @@ using pi = pair<int, int>;
 void solve() {
     int n;
     cin>>n;
-    int arr[n];
+    ll arr[n];
     input(arr);
     ll gcdd=0;
     for (int i=0; i<n; i++) {
         gcdd=gcd(gcdd, arr[i]);
     }
-    set<int> ans;
-    for (int i=1; i*i<=gcdd; i++) {
-        ans.insert(i);
-        ans.insert(gcdd/i);
+    set<ll> ans;
+    for (int i=1; i*1ll*i<=gcdd; i++) {
+        if (gcdd%i==0) {
+            ans.insert(i);
+            ans.insert(gcdd/i);
+        }
+
     }
     cout<<ans.size()<<'\n';
     for (auto it : ans) {
